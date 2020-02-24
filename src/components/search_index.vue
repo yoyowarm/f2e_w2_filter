@@ -3,7 +3,7 @@
     <div class="topbar">
       <div class="container">
         <div class="logo">Have Fun</div>
-        <div class="search"><input type="text" placeholder="輸入欲查詢地區"><i class="fas fa-search fasearch"></i></div>
+        <div class="search"><input type="text" placeholder="輸入欲查詢地區"></div>
       </div>
     </div>
     <div class="storyArea">
@@ -38,8 +38,6 @@
 <script>
 import { mapActions,mapState,mapGetters,mapMutations } from 'vuex'
 import fontawesome from '@fortawesome/fontawesome'
-import fasearch from '@fortawesome/fontawesome-free-solid/fasearch'
-fontawesome.library.add(fasearch)
 export default {
   name: 'HelloWorld',
   data () {
