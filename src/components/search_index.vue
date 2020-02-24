@@ -12,7 +12,7 @@
           <div class="location">
             <h3>Location</h3>
             <select>
-              <option  v-for="(item,index) in LocationList" >{{item}}</option>
+              <option  v-for="(item,index) in LocationList" :key="index">{{item}}</option>
               
             </select>
           </div>
@@ -22,7 +22,7 @@
           <div class="Categories">
             <h3>Categories</h3>
             <ul class="categories-list">
-              <li v-for="(item,index) in filterItem"><label  class="label--checkbox">{{item}}<input type="checkbox"><span class="checkmark"></span></label></li>
+              <li v-for="(item,index) in filterItem" :key="index"><label  class="label--checkbox">{{item}}<input type="checkbox"><span class="checkmark"></span></label></li>
             </ul>
           </div>
         </div>
