@@ -18,8 +18,6 @@
 import singleArticle from './signle_article'
 import { mapActions,mapState,mapGetters,mapMutations } from 'vuex'
 import fontawesome from '@fortawesome/fontawesome'
-import fatimes from '@fortawesome/fontawesome-free-solid/fatimes'
-fontawesome.library.add(fatimes)
 export default {
   name: 'search_results',
   data () {
